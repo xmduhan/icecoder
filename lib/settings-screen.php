@@ -513,7 +513,8 @@ function showHideTabs() {
 
 // Check password strength and color requirements not met
 const pwStrength = function(pw) {
-	// Set variables
+	return true;
+// Set variables
     const hlCol = "rgba(0, 198, 255, 0.7)";
 	let chars, upper, lower, num, special;
 
